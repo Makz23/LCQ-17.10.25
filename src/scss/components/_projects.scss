@@ -1,0 +1,54 @@
+
+// =======================
+// Projects
+// =======================
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-md;
+}
+
+.project-item {
+  padding: $spacing-md;
+  background: $color-bg;
+  border-radius: $spacing-sm;
+  border-left: 4px solid $color-success;
+  transition: $transition;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+  &:hover {
+    background: $color-bg;
+    border-left-width: 6px;
+    transform: translateX(12px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  &:active {
+    transform: translateX(6px) scale(0.98);
+  }
+
+  h3 {
+    color: $text-color;
+    font-size: $font-size-lg;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: $color-success;
+    }
+  }
+
+  .company {
+    font-weight: bold;
+    color: $color-success;
+    font-size: $font-size-lg;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darken($color-success, 10%);
+    }
+  }
+}

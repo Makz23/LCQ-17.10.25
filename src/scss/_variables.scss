@@ -1,7 +1,21 @@
-$primary: #667eea;
-$primary-hover: #5a6fd8;
-$success: #28a745;
-$success-hover: #218838;
+$font-stack: 'Arial', sans-serif;
 $text-color: #333;
-$bg-light: #f8f9fa;
+$bg-gradient: linear-gradient(135deg, #89f474 0%, #f03312 100%);
+$color-primary: #ea9d66;
+$color-primary-hover: #d8c75a;
+$color-secondary: #764ba2;
+$color-success: #28a745;
 $transition: all 0.3s ease;
+$spacing-vlg: 60px;
+$spacing-lg: 40px;
+$spacing-md: 20px;
+$spacing-sm: 10px;
+$color-bg: #ffffff;
+
+$font-size-vlg: 1.4em;
+$font-size-lg: 1.2em;
+$font-size-md: 1em;
+$font-size-sm: 0.9em;
+
+$standard-max-width: 1000px;
+$blwavg-max-width: 850px;

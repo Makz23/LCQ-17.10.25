@@ -1,11 +1,11 @@
-@import "./reset";
-@import "./star";
-@import "./variables";
-@import "./mixins";
-@import "./body";
-@import "./header";
-@import "./footer";
-
-
-@import "./dark_magic";
-@import "./components/*";
+// @import "./reset";
+@import "./_variables";
+@import "./_video";
+@import "./_responsiveness";
+@import "./_general";
+@import "./components/_about";
+@import "./components/_expedu";
+@import "./components/_skills";
+@import "./components/_header";
+@import "./components/_projects";
+@import "./components/_scroll";

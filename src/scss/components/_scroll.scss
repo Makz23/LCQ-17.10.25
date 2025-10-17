@@ -1,0 +1,32 @@
+.scroll-top {
+  position: fixed;
+  bottom: $spacing-lg;
+  right: $spacing-lg;
+  background: $color-primary;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: $spacing-vlg;
+  height: $spacing-vlg;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-vlg;
+  transition: $transition;
+  opacity: 0.8;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+
+  &:hover {
+    background: $color-primary-hover;
+    transform: scale(1.15);
+    opacity: 1;
+    box-shadow: 0 6px $spacing-md rgba(0, 0, 0, 0.25);
+  }
+
+  &:active {
+    transform: scale(0.9);
+    background: #4a5fc6;
+  }
+}
